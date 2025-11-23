@@ -1,4 +1,4 @@
-﻿using EnterPrise.Models;
+using EnterPrise.Models;
 using EnterPrise.Services;
 
 namespace Enterprise
@@ -21,6 +21,9 @@ namespace Enterprise
                 Console.WriteLine("Member not found");
                 return;
             }
+
+            var childrenNames = team.GetAllChildren(team.FoundMember);
+            TeamDisplay.DisplayChildrenNames(team.FoundMember, childrenNames);
 
             var infected = team.GetAllInfected(team.FoundMember);
             TeamDisplay.DisplayInfected(infected);
