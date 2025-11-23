@@ -1,4 +1,4 @@
-﻿using EnterPrise.Models;
+using EnterPrise.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +21,18 @@ namespace EnterPrise.Services
             for (int i = 0; i < infected.Count; i++)
             {
                 Console.Write($"{infected[i]} ");
+            }
+            Console.WriteLine();
+        }
+
+
+        static public void DisplayChildrenNames(Member member, List<string> childrenNames)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Children of {member.Name}:");
+            for (int i = 0; i < childrenNames.Count; i++)
+            {
+                Console.Write($"{childrenNames[i]} ");
             }
             Console.WriteLine();
         }
