@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigArray", "BigArray.csproj", "{F66D10FE-9C4C-0E6E-CDC4-5E8D91D17B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F66D10FE-9C4C-0E6E-CDC4-5E8D91D17B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66D10FE-9C4C-0E6E-CDC4-5E8D91D17B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66D10FE-9C4C-0E6E-CDC4-5E8D91D17B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66D10FE-9C4C-0E6E-CDC4-5E8D91D17B05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C936D93-EF9E-4681-8240-E574C07B5386}
+	EndGlobalSection
+EndGlobal
