@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace EnterPrise.Models
 {
     public class Team
     {
-        private readonly List<Member> allChildren = new ();
+        private readonly List<string> allChildren = new ();
         private readonly List<string> allInfected = new ();
         private int stepCount = 0;
 
@@ -20,8 +20,8 @@ namespace EnterPrise.Models
             Captain = captain;
         }
 
-        public List<Member> GetAllChildren(Member member)
-        {           
+        public List<String> GetAllChildren(Member member)
+        { 
             GetChildren(member);
             return allChildren;
         }
@@ -64,7 +64,7 @@ namespace EnterPrise.Models
             {
                 foreach (Member child in member.Children)
                 {
-                    allChildren!.Add(child);
+                    allChildren!.Add(child.Name);
                     GetChildren(child);
                 }
             }
